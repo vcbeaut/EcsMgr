@@ -30,7 +30,7 @@ public class EcsMgr {
 		System.setProperty("http.proxyHost", "127.0.0.1");
 		System.setProperty("http.proxyPort", "8888");
 		
-			DefaultProfile profile = DefaultProfile.getProfile("cn-shenzhen","LTAIjLlDAFLhBl8m","s2MqGisGzYXQzfeSi0gihUCPyFN3Jz");
+			DefaultProfile profile = DefaultProfile.getProfile("XXX","XXX","XXX");
 			IAcsClient client = new DefaultAcsClient(profile);
 			
 			System.out.print("请输入欲创建ECS实例的数量(1-100)：");
